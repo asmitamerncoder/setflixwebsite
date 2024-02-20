@@ -9,11 +9,11 @@ function App() {
   
   let screenWidth = window.screen.availWidth;
 
-  console.log(screenWidth);
+  // console.log(screenWidth);
 
   let cards = document.querySelector(".card-Container-new");
 
-  console.log(cards);
+  // console.log(cards);
 
   let goPrev = () => {    
     let slideWidth = cards.clientWidth;
